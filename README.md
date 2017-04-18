@@ -1,4 +1,5 @@
-**Supremely Simple Scripted Strings**
+![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-wide.png)
+# Supremely Simple Scripted Strings
 
 ## Install 4S
 
