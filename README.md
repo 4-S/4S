@@ -18,5 +18,5 @@ Paste that into a Terminal.
 # What Does 4S Do?
 
 1. 4S is a sane and human readable alias.
-1. 4S installs and configures services with secure, and simple defaults.
+1. 4S installs and configures services, with secure and simple defaults.
 1. 4S does this in a fraction of the time it takes to do by hand.
