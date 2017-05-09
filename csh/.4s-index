@@ -1,0 +1,12 @@
+########################################
+## 1.0
+## 4S - Supremely Simple Scripted Strings
+## csh
+##
+## Follow the [README](https://github.com/4-S/4S)
+##
+########################################
+source ~/.4s-core/.4s-core-index
+source ~/.4s-core-custom-updater-config
+
+alias 4s-update 'cd ~ ; fetch https://raw.githubusercontent.com/4-S/4S/master/csh/.4s-index ; cd ~/.4s-core ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/csh/.4s-core/.4s-core-index ; cd ~ ; source ~/.cshrc'
