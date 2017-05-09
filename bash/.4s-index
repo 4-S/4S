@@ -9,4 +9,4 @@
 source ~/.4s-core/.4s-core-index
 source ~/.4s-core-custom-updater-config
 
-alias 4s-update='cd ~ ; wget https://raw.githubusercontent.com/4-S/4S/master/bash/.4s-index ; cd ~/.4s-core ; wget https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core/.4s-core-index ; cd ~ ; source ~/.bash'
+alias 4s-update='cd ~ ; wget https://raw.githubusercontent.com/4-S/4S/master/bash/.4s-index ; cd ~/.4s-core ; wget https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core/.4s-core-index ; cd ~ ; source ~/.bashrc'
