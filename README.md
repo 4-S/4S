@@ -10,7 +10,7 @@ Paste that into a Terminal.
 
 ### 4S - Ubuntu .bashrc edition
 ```
-cd ~ ; mkdir .4s-core ; wget https://raw.githubusercontent.com/4-S/4S/master/bash/.4s-index ; echo 'source ~/.4s-index' >> ~/.bashrc ; cd ~/.4s-core ; wget https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core/.4s-core-index ; cd ~ ; wget https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core-custom-updater-config ; source ~/.bashrc
+cd ~ ; mkdir .4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S/master/bash/.4s-index -O .4s-index ; echo 'source ~/.4s-index' >> ~/.bashrc ; cd ~/.4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core/.4s-core-index -O .4s-core-index ; cd ~ ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core-custom-updater-config -O .4s-core-custom-updater-config ; source ~/.bashrc
 ```
 Paste that into a Terminal.
 
