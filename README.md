@@ -14,6 +14,8 @@ cd ~ ; mkdir .4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S/master/
 ```
 Paste that into a Terminal.
 
+![](https://raw.githubusercontent.com/4-S/4S/master/_img/4-install.gif)
+
 
 # What Does 4S Do?
 
