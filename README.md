@@ -40,7 +40,8 @@ user@host:~$ ls -a
 .bashrc
 ```
 
-Trivially create and add your own alias files. An alias can be as simple as a shortcut to bunch of chained sequential commands.
+Trivially create and add your own alias files. An alias can be as simple as a shortcut to a series commands.
+Example:
 
 ```
 alias mytest='date ; uname -a ; sudo apt update'
