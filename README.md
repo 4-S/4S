@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-wide.png)
 
-The package manager for aliases.
+### The package manager for aliases.
 
 # Install 4S
 
