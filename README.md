@@ -4,13 +4,13 @@
 ### 4S - FreeBSD .cshrc edition
 
 ```
-cd ~ ; fetch https://raw.githubusercontent.com/4-S/4S/master/4s-index.csh ; mv 4s-index.4s .4s-index ; echo 'source ~/.4s-index' >> ~/.cshrc ; source .cshrc
+cd ~ ; fetch https://raw.githubusercontent.com/4-S/4S/master/4s-index.csh ; mv 4s-index.csh .4s-index ; echo 'source ~/.4s-index' >> ~/.cshrc ; source .cshrc
 ```
 Paste that into a Terminal.
 
 ### 4S - Ubuntu .bashrc edition
 ```
-cd ~ ; wget https://raw.githubusercontent.com/4-S/4S/master/4s-index.bash ; mv 4s-index.4s .4s-index ; echo 'source ~/.4s-index' >> ~/.bashrc ; source .bashrc
+cd ~ ; wget https://raw.githubusercontent.com/4-S/4S/master/4s-index.bash ; mv 4s-index.bash .4s-index ; echo 'source ~/.4s-index' >> ~/.bashrc ; source .bashrc
 ```
 Paste that into a Terminal.
 
