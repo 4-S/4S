@@ -46,3 +46,7 @@ Example:
 ```
 alias mytest='date ; uname -a ; sudo apt update'
 ```
+
+## Community Discussion
+Text and voice chat on the public mumble server.
+### [Join the Public Mumble](mumble://pub.bringyourwallet.com:64738/?version=1.2.16)
