@@ -6,7 +6,14 @@
 ## Follow the [README](https://github.com/4-S/4S)
 ##
 ########################################
-source ~/.4s-core/.4s-core-index
-source ~/.4s-core-custom-updater-config
 
+# 4S Core files
+source ~/.4s-core/.4s-core-index
+
+# 4S Custom updater - For your custom aliases and script.
+source ~/.4s-core-custom-updater-config
+# To use your custom alias uncomment the aliases,
+# and use your Github user name in the example URL.
+
+# 4S Update command - Re-downloads and overwrites everything but 4s-core-custom-updater stuff.
 alias 4s-update 'cd ~ ; fetch https://raw.githubusercontent.com/4-S/4S/master/csh/.4s-index ; cd ~/.4s-core ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/csh/.4s-core/.4s-core-index ; cd ~ ; source ~/.cshrc'

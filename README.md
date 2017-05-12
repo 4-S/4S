@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-wide.png)
 
-### The package manager for aliases.
+### The simplest package manager for aliases.
 
 # Install 4S
 
@@ -49,4 +49,6 @@ alias mytest='date ; uname -a ; sudo apt update'
 
 ## Community Discussion
 Text and voice chat on the public mumble server.
-**[Join the Public Mumble](mumble://pub.bringyourwallet.com:64738/?version=1.2.16)**
+**Join the Public Mumble**
+Server: `pub.bringyourwallet.com`
+Port: `64738`
