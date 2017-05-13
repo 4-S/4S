@@ -4,14 +4,39 @@
 
 # Install 4S
 
-### Install on FreeBSD - .cshrc edition
+## FreeBSD - .cshrc edition
+
+### Additional Dependencies
+
+These are the only additional dependencies not shipped with the OS.
+
+* **signify** for authentication.
+
+* **ca_root_nss** to _fetch_ via _https_.
+
+ Install them via pkg and check your current shell.
+
+`pkg install signify ca_root_nss ; echo 'CURRENT SHELL' ; echo $0 ; echo $0`
+
+If your **CURRENT SHEL** is _not_ **csh** change it with:
+
+`chsh -s /bin/csh`
+
+### Install
 
 ```
 cd ~ ; mkdir .4s-core ; fetch https://raw.githubusercontent.com/4-S/4S/master/csh/.4s-index ; echo 'source ~/.4s-index' >> ~/.cshrc ; cd ~/.4s-core ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/csh/.4s-core/.4s-core-index ; cd ~ ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/csh/.4s-core-custom-updater-config ; source ~/.cshrc
 ```
 Paste that into a Terminal.
 
-### Install on Ubuntu - .bashrc edition
+## Ubuntu - .bashrc edition
+
+### Dependencies
+
+*
+
+### Install
+
 ```
 cd ~ ; mkdir .4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S/master/bash/.4s-index -O .4s-index ; echo 'source ~/.4s-index' >> ~/.bashrc ; cd ~/.4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core/.4s-core-index -O .4s-core-index ; cd ~ ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core-custom-updater-config -O .4s-core-custom-updater-config ; source ~/.bashrc
 ```
