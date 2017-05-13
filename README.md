@@ -6,9 +6,7 @@
 
 ## FreeBSD - .cshrc edition
 
-**Dependencies**
-
-The only additional dependencies are _signify_ for authentication & _ca_root_nss_ to _fetch_ via _https_.
+**Instructions**
 
 Get dependencies and change your current shell.
 
