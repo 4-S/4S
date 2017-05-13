@@ -6,23 +6,15 @@
 
 ## FreeBSD - .cshrc edition
 
-### Additional Dependencies
+**Dependencies**
 
-These are the only additional dependencies not shipped with the OS.
+The only additional dependencies are _signify_ for authentication & _ca_root_nss_ to _fetch_ via _https_.
 
-* **signify** for authentication.
+Get dependencies and change your current shell.
 
-* **ca_root_nss** to _fetch_ via _https_.
+`pkg install signify ca_root_nss ; echo $0 ; chsh -s /bin/csh ; echo $0`
 
- Install them via pkg and check your current shell.
-
-`pkg install signify ca_root_nss ; echo 'CURRENT SHELL' ; echo $0 ; echo $0`
-
-If your **CURRENT SHEL** is _not_ **csh** change it with:
-
-`chsh -s /bin/csh`
-
-### Install
+## Install
 
 ```
 cd ~ ; mkdir .4s-core ; fetch https://raw.githubusercontent.com/4-S/4S/master/csh/.4s-index ; echo 'source ~/.4s-index' >> ~/.cshrc ; cd ~/.4s-core ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/csh/.4s-core/.4s-core-index ; cd ~ ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/csh/.4s-core-custom-updater-config ; source ~/.cshrc
