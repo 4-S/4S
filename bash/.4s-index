@@ -12,7 +12,7 @@
 source ~/.4s-core/.4s-core-index
 ##
 ## 4S Update command - Re-downloads and overwrites everything except 4s-core-custom-updater stuff.
-alias 4s-update='cd ~ ; wget -q https://raw.githubusercontent.com/4-S/4S/master/bash/.4s-index -O .4s-index ; cd ~/.4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core/.4s-core-index -O .4s-core-index ; cd ~ ; source ~/.bashrc'
+alias 4s-update='cd ~ ; wget -q http://4s-stable.ipfu.org/bash/.4s-index -O .4s-index ; cd ~/.4s-core ; wget -q http://4s-stable.ipfu.org/bash/.4s-core/.4s-core-index -O .4s-core-index ; cd ~ ; source ~/.bashrc'
 ##
 ################################################################################
 
