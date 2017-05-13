@@ -25,7 +25,7 @@ source ~/.4s-core-custom-updater-config
 
 
 ########################### 4S Core TESTING AND DEV ############################
-# 4S DEV Update command - Re-downloads and overwrites everything except 4s-core-custom-updater stuff.
+## 4S DEV Update command - Re-downloads and overwrites everything except 4s-core-custom-updater stuff.
 #alias 4s-4dev-update 'cd ~ ; fetch http://4s-dev.ipfu.org/bash/.4s-index ; cd ~/.4s-core ; fetch http://4s-core-dev.ipfu.org/bash/.4s-core/.4s-core-index ; cd ~ ; source ~/.cshrc'
 ##
 ################################################################################
