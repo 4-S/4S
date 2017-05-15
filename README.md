@@ -23,7 +23,7 @@ Paste that into a Terminal.
 
 ### Dependencies
 
-*
+`apt install signify ; `
 
 ### Install
 
