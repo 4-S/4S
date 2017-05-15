@@ -34,6 +34,20 @@ Paste that into a Terminal.
 
 ![](https://raw.githubusercontent.com/4-S/4S/master/_img/4-install.gif)
 
+## macOS - .bashrc edition
+
+### Instructions
+
+Get dependencies and change your current shell.
+
+`brew` and `minisign`
+
+### Install
+
+```
+cd ~ ; mkdir .4s-core ; curl https://raw.githubusercontent.com/4-S/4S/master/bash/.4s-index > .4s-index ; echo 'source ~/.4s-index' >> ~/.bashrc ; cd ~/.4s-core ; curl https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core/.4s-core-index > .4s-core-index ; cd ~ ; curl https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core-custom-updater-config > .4s-core-custom-updater-config ; source ~/.bashrc
+```
+Paste that into a Terminal.
 
 # What Does 4S Do?
 
