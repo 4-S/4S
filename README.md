@@ -84,10 +84,11 @@ alias mytest='date ; uname -a ; sudo apt update'
 
 # Top Supporters
 
-Amount | Supporter Name            | Supporter Domain        
--------|---------------------------|-----------------------
-$900   | [@ReelSense][reelsense]   | [frothymix.info][byw]
-$150   | [Tugger Hosting][thgh]      | [tuggerhosting.com][th]
+Monthly supporters only.
+
+Amount    | Supporter Name            | Supporter Domain       
+----------|---------------------------|------------------------
+$40/month | [Tugger Hosting][thgh]    | [tuggerhosting.com][th]
 
 [reelsense]: https://github.com/reelsense
 [byw]: http://frothymix.info
@@ -95,6 +96,8 @@ $150   | [Tugger Hosting][thgh]      | [tuggerhosting.com][th]
 [th]: https://tuggerhosting.com/
 
 ## Support 4S Development
+
+### **[Support Now](https://reelsense.tv/donate)**
 
 **Support 4S development** and maintenance and get simple tutorials & aliases designed for your Cloud VPS!: _Vultr_, _DreamHost_, _Digital Ocean_, _Amazon EC2_, or _Google Cloud Platform_.
 
