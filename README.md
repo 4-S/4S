@@ -86,10 +86,13 @@ alias mytest='date ; uname -a ; sudo apt update'
 
 Amount | Supporter Name            | Supporter Domain        
 -------|---------------------------|-----------------------
-$900   | [@ReelSense][reelsense]   | [frothymix.info][byw] 
+$900   | [@ReelSense][reelsense]   | [frothymix.info][byw]
+$150   | [Tugger Hosting][thgh]      | [tuggerhosting.com][th]
 
 [reelsense]: https://github.com/reelsense
 [byw]: http://frothymix.info
+[thgh]: https://github.com/TuggerHosting
+[th]: https://tuggerhosting.com/
 
 ## Support 4S Development
 
