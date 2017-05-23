@@ -45,7 +45,7 @@ Get dependencies and change your current shell.
 ### Install
 
 ```
-cd ~ ; mkdir .4s-core ; curl https://raw.githubusercontent.com/4-S/4S/master/macos-bash/.4s-index > .4s-index ; echo 'source ~/.4s-index' >> ~/.bash_profile ; cd ~/.4s-core ; curl https://raw.githubusercontent.com/4-S/4S-core/master/macos-bash/.4s-core/.4s-core-index > .4s-core-index ; cd ~ ; curl https://raw.githubusercontent.com/4-S/4S-core/master/macos-bash/.4s-core-custom-updater-config > .4s-core-custom-updater-config ; source ~/.bash_profile
+cd ~ ; mkdir .4s-core ; curl -L https://raw.githubusercontent.com/4-S/4S/master/macos-bash/.4s-index > .4s-index ; echo 'source ~/.4s-index' >> ~/.bash_profile ; cd ~/.4s-core ; curl -L https://raw.githubusercontent.com/4-S/4S-core/master/macos-bash/.4s-core/.4s-core-index > .4s-core-index ; cd ~ ; curl -L https://raw.githubusercontent.com/4-S/4S-core/master/macos-bash/.4s-core-custom-updater-config > .4s-core-custom-updater-config ; source ~/.bash_profile
 ```
 Paste that into a Terminal.
 
