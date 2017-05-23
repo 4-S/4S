@@ -82,6 +82,7 @@ Example:
 alias mytest='date ; uname -a ; sudo apt update'
 ```
 
+
 # Top Supporters
 
 Monthly supporters only.
@@ -95,6 +96,7 @@ $40/month | [Tugger Hosting][thgh]    | [tuggerhosting.com][th]
 [thgh]: https://github.com/TuggerHosting
 [th]: https://tuggerhosting.com/
 
+
 ## Support 4S Development
 
 ### **[Support Now](https://reelsense.tv/donate)**
@@ -104,8 +106,13 @@ $40/month | [Tugger Hosting][thgh]    | [tuggerhosting.com][th]
 Help simplify the Cloud VPS customer experience.
 > Create a $2.50/month Mumble server in 52 seconds with 4S!
 
+
 ## Community Discussion
+
 Text and voice chat on the public mumble server.
+
 **Join the Public Mumble**
+
 Server: `pub.bringyourwallet.com`
+
 Port: `64738`
