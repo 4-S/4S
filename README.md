@@ -21,9 +21,11 @@ Paste that into a Terminal.
 
 ## Ubuntu - .bashrc edition
 
-### Dependencies
+### Instructions
 
-`apt install signify ; `
+Get dependencies.
+
+`apt install signify`
 
 ### Install
 
@@ -38,7 +40,7 @@ Paste that into a Terminal.
 
 ### Instructions
 
-Get dependencies and change your current shell.
+Get dependencies.
 
 `brew` and `minisign`
 
@@ -64,8 +66,9 @@ user@host:~$ ls -a
 .
 ..
 .4s-core/
+../.4s-index
+../.4s-core-index
 .4s-core-custom-updater-config
-.4s-index
 .bashrc
 ```
 
