@@ -51,6 +51,8 @@ cd ~ ; mkdir .4s-core ; curl -L https://raw.githubusercontent.com/4-S/4S/master/
 ```
 Paste that into a Terminal.
 
+![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-install-mac.gif)
+
 # What Does 4S Do?
 
 1. 4S makes managing and updating alias files _simple_ and _easy_.
