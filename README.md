@@ -79,20 +79,21 @@ Example:
 alias mytest='date ; uname -a ; sudo apt update'
 ```
 
-## Sponsors
+## Support 4S Development
 
 **Support 4S development** and maintenance and get simple tutorials & aliases designed for your Cloud VPS!: _Vultr_, _DreamHost_, _Digital Ocean_, _Amazon EC2_, or _Google Cloud Platform_.
 
 Help simplify the Cloud VPS customer experience.
 > Create a $2.50/month Mumble server in 52 seconds with 4S!
 
-### Top Contributors
+## Top Supporters
 
-Amount | Name                      | Domain              |
--------|---------------------------|---------------------|----
-$900   | @ReelSense                | [frothymix.info][byw] |
+Amount | Supporter Name            | Supporter Domain        
+-------|---------------------------|-----------------------
+$900   | [@ReelSense][reelsense]   | [frothymix.info][byw] 
 
-[byw]: http://bringyourwallet.com
+[reelsense]: https://github.com/reelsense
+[byw]: http://frothymix.info
 
 
 
