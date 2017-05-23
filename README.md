@@ -15,7 +15,7 @@ Get dependencies and change your current shell.
 ### Install
 
 ```
-cd ~ ; mkdir .4s-core ; fetch https://raw.githubusercontent.com/4-S/4S/master/csh/.4s-index ; echo 'source ~/.4s-index' >> ~/.cshrc ; cd ~/.4s-core ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/csh/.4s-core/.4s-core-index ; cd ~ ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/csh/.4s-core-custom-updater-config ; source ~/.cshrc
+cd ~ ; mkdir .4s-core ; fetch https://raw.githubusercontent.com/4-S/4S/master/freebsd-csh/.4s-index ; echo 'source ~/.4s-index' >> ~/.cshrc ; cd ~/.4s-core ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/freebsd-csh/.4s-core/.4s-core-index ; cd ~ ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/freebsd-csh/.4s-core-custom-updater-config ; source ~/.cshrc
 ```
 Paste that into a Terminal.
 
@@ -28,7 +28,7 @@ Paste that into a Terminal.
 ### Install
 
 ```
-cd ~ ; mkdir .4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S/master/bash/.4s-index -O .4s-index ; echo 'source ~/.4s-index' >> ~/.bashrc ; cd ~/.4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core/.4s-core-index -O .4s-core-index ; cd ~ ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core-custom-updater-config -O .4s-core-custom-updater-config ; source ~/.bashrc
+cd ~ ; mkdir .4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S/master/ubuntu-bash/.4s-index -O .4s-index ; echo 'source ~/.4s-index' >> ~/.bashrc ; cd ~/.4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/ubuntu-bash/.4s-core/.4s-core-index -O .4s-core-index ; cd ~ ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/ubuntu-bash/.4s-core-custom-updater-config -O .4s-core-custom-updater-config ; source ~/.bashrc
 ```
 Paste that into a Terminal.
 
@@ -45,7 +45,7 @@ Get dependencies and change your current shell.
 ### Install
 
 ```
-cd ~ ; mkdir .4s-core ; curl https://raw.githubusercontent.com/4-S/4S/master/bash/.4s-index > .4s-index ; echo 'source ~/.4s-index' >> ~/.bash_profile ; cd ~/.4s-core ; curl https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core/.4s-core-index > .4s-core-index ; cd ~ ; curl https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core-custom-updater-config > .4s-core-custom-updater-config ; source ~/.bash_profile
+cd ~ ; mkdir .4s-core ; curl https://raw.githubusercontent.com/4-S/4S/master/macos-bash/.4s-index > .4s-index ; echo 'source ~/.4s-index' >> ~/.bash_profile ; cd ~/.4s-core ; curl https://raw.githubusercontent.com/4-S/4S-core/master/macos-bash/.4s-core/.4s-core-index > .4s-core-index ; cd ~ ; curl https://raw.githubusercontent.com/4-S/4S-core/master/macos-bash/.4s-core-custom-updater-config > .4s-core-custom-updater-config ; source ~/.bash_profile
 ```
 Paste that into a Terminal.
 
