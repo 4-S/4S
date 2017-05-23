@@ -1,5 +1,5 @@
 #################### 4S - Supremely Simple Scripted Strings ####################
-## 1.3
+## 2.0
 ## csh
 ##
 ##
@@ -12,7 +12,7 @@
 source ~/.4s-core/.4s-core-index
 ##
 ## 4S Update command - Re-downloads and overwrites everything except 4s-core-custom-updater stuff.
-alias 4s-update 'cd ~ ; fetch http://4s-stable.ipfu.org/csh/.4s-index ; cd ~/.4s-core ; fetch http://4s-stable-core.ipfu.org/csh/.4s-core/.4s-core-index ; cd ~ ; source ~/.cshrc'
+alias 4s-update 'cd ~/.4s-core ; fetch http://4s-stable.ipfu.org/csh/.4s-index ; fetch http://4s-stable-core.ipfu.org/csh/.4s-core/.4s-core-index ; cd ~ ; source ~/.cshrc'
 ##
 ################################################################################
 
@@ -27,6 +27,6 @@ source ~/.4s-core-custom-updater-config
 
 ############################### TESTING AND DEV ################################
 ## 4S DEV Update command - Re-downloads and overwrites everything except 4s-core-custom-updater stuff.
-#alias 4s-4dev-update 'cd ~ ; fetch http://4s-dev.ipfu.org/csh/.4s-index ; cd ~/.4s-core ; fetch http://4s-dev-core.ipfu.org/csh/.4s-core/.4s-core-index ; cd ~ ; source ~/.cshrc'
+#alias 4s-4dev-update 'cd ~/.4s-core ; fetch http://4s-dev.ipfu.org/csh/.4s-index ; fetch http://4s-dev-core.ipfu.org/csh/.4s-core/.4s-core-index ; cd ~ ; source ~/.cshrc'
 ##
 ################################################################################
