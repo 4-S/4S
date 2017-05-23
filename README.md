@@ -27,6 +27,8 @@ Get dependencies.
 
 `apt install signify`
 
+![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-install-ubuntu.gif)
+
 ### Install
 
 ```
@@ -34,7 +36,6 @@ cd ~ ; mkdir .4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S/master/
 ```
 Paste that into a Terminal.
 
-![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-install-ubuntu.gif)
 
 ## macOS - .bash_profile edition
 
@@ -44,14 +45,14 @@ Get dependencies.
 
 `brew` and `minisign`
 
+![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-install-mac.gif)
+
 ### Install
 
 ```
 cd ~ ; mkdir .4s-core ; curl -L https://raw.githubusercontent.com/4-S/4S/master/macos-bash/.4s-index -o ~/.4s-core/.4s-index ; echo 'source ~/.4s-core/.4s-index' >> ~/.bash_profile ; curl -L https://raw.githubusercontent.com/4-S/4S-core/master/macos-bash/.4s-core/.4s-core-index -o ~/.4s-core/.4s-core-index ; curl -L https://raw.githubusercontent.com/4-S/4S-core/master/macos-bash/.4s-core-custom-updater-config -o ~/.4s-core-custom-updater-config ; source ~/.bash_profile
 ```
 Paste that into a Terminal.
-
-![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-install-mac.gif)
 
 # What Does 4S Do?
 
