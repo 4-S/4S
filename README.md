@@ -2,6 +2,16 @@
 
 ### The simplest package manager for aliases.
 
+# What Does 4S Do?
+
+1. 4S makes managing and updating alias files _simple_ and _easy_.
+1. 4S makes installing and configuring services with secure defaults easy, with _simple_ shortcuts.
+1. 4S reduces complex multi-step tasks into _single word shortcuts_.
+1. 4S takes a _fraction of the time_ it takes to do by hand.
+1. 4S is a _sane and human readable_ alias.
+
+4S installs additional Core aliases inside its own folder.
+
 # Install 4S
 
 ## FreeBSD - .cshrc edition
@@ -54,26 +64,7 @@ cd ~ ; mkdir .4s-core ; curl -L https://raw.githubusercontent.com/4-S/4S/master/
 ```
 Paste that into a Terminal.
 
-# What Does 4S Do?
-
-1. 4S makes managing and updating alias files _simple_ and _easy_.
-1. 4S makes installing and configuring services with secure defaults easy, with _simple_ shortcuts.
-1. 4S reduces complex multi-step tasks into _single word shortcuts_.
-1. 4S takes a _fraction of the time_ it takes to do by hand.
-1. 4S is a _sane and human readable_ alias.
-
-4S installs additional Core aliases inside its own folder.
-
-```
-user@host:~$ ls -a
-.
-..
-.4s-core/
-../.4s-index
-../.4s-core-index
-.4s-core-custom-updater-config
-.bashrc
-```
+# Load Your Custom Aliases
 
 Trivially create and add your own alias files. An alias can be as simple as a shortcut to a series commands.
 Example:
@@ -81,6 +72,8 @@ Example:
 ```
 alias mytest='date ; uname -a ; sudo apt update'
 ```
+
+### [Learn More](https://github.com/4-S/4S-custom)
 
 
 # Top Supporters
