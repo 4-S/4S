@@ -87,14 +87,16 @@ alias mytest='date ; uname -a ; sudo apt update'
 
 Monthly supporters only.
 
-Amount    | Supporter Name            | Supporter Domain       
-----------|---------------------------|------------------------
-$40/month | [Tugger Hosting][thgh]    | [tuggerhosting.com][th]
+Amount     | Supporter Name            | Supporter Domain       
+-----------|---------------------------|------------------------
+$50/month  | [Tugger Hosting][thgh]    | [tuggerhosting.com][th]
+$50/month  | [Yella Dog Networks][ydn] | [yelladognetworks.com][ydn]
 
 [reelsense]: https://github.com/reelsense
 [byw]: http://frothymix.info
 [thgh]: https://github.com/TuggerHosting
 [th]: https://tuggerhosting.com/
+[ydn]: https://yelladognetworks.com
 
 
 ## Support 4S Development
@@ -104,7 +106,7 @@ $40/month | [Tugger Hosting][thgh]    | [tuggerhosting.com][th]
 **Support 4S development** and maintenance and get simple tutorials & aliases designed for your Cloud VPS!: _Vultr_, _DreamHost_, _Digital Ocean_, _Amazon EC2_, or _Google Cloud Platform_.
 
 Help simplify the Cloud VPS customer experience.
-> Create a $2.50/month Mumble server in 52 seconds with 4S!
+> Create a Mumble server in 50 seconds on Vultr for $2.50/month!
 
 
 ## Community Discussion
