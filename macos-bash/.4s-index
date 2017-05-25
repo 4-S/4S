@@ -1,0 +1,32 @@
+#################### 4S - Supremely Simple Scripted Strings ####################
+## 2.0
+## bash
+##
+##
+## Follow the [README](https://github.com/4-S/4S)
+##
+################################################################################
+
+
+################################ 4S Core files #################################
+source ~/.4s-core/.4s-core-index
+##
+## 4S Update command - Re-downloads and overwrites everything except 4s-core-custom-updater stuff.
+alias 4s-update='cd ~ ; curl -L http://4s-stable.ipfu.org/macos-bash/.4s-index -o ~/.4s-core/.4s-index ; curl -L http://4s-stable-core.ipfu.org/macos-bash/.4s-core/.4s-core-index -o ~/.4s-core/.4s-core-index ; source ~/.bash_profile'
+##
+################################################################################
+
+
+################################## 4S Custom ###################################
+## Updater - For your custom aliases and script.
+source ~/.4s-core-custom-updater-config
+## To use your custom alias uncomment the aliases,
+## and use your Github user name in the example URL.
+################################################################################
+
+
+############################### TESTING AND DEV ################################
+## 4S DEV Update command - Re-downloads and overwrites everything except 4s-core-custom-updater stuff.
+#alias 4s-4dev-update 'curl -L http://4s-dev.ipfu.org/macos-bash/.4s-index -o ~/.4s-core/.4s-index ; curl -L http://4s-dev-core.ipfu.org/macos-bash/.4s-core/.4s-core-index -o ~/.4s-core/.4s-core-index ; source ~/.bash_profile'
+##
+################################################################################

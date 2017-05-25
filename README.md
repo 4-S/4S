@@ -2,6 +2,16 @@
 
 ### The simplest package manager for aliases.
 
+# What Does 4S Do?
+
+1. 4S makes managing and updating alias files _simple_ and _easy_.
+1. 4S makes installing and configuring services with secure defaults easy, with _simple_ shortcuts.
+1. 4S reduces complex multi-step tasks into _single word shortcuts_.
+1. 4S takes a _fraction of the time_ it takes to do by hand.
+1. 4S is a _sane and human readable_ alias.
+
+4S installs additional Core aliases inside its own folder.
+
 # Install 4S
 
 ## FreeBSD - .cshrc edition
@@ -15,45 +25,46 @@ Get dependencies and change your current shell.
 ### Install
 
 ```
-cd ~ ; mkdir .4s-core ; fetch https://raw.githubusercontent.com/4-S/4S/master/csh/.4s-index ; echo 'source ~/.4s-index' >> ~/.cshrc ; cd ~/.4s-core ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/csh/.4s-core/.4s-core-index ; cd ~ ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/csh/.4s-core-custom-updater-config ; source ~/.cshrc
+cd ~ ; mkdir .4s-core ; cd ~/.4s-core ; fetch https://raw.githubusercontent.com/4-S/4S/master/freebsd-csh/.4s-index ; echo 'source ~/.4s-core/.4s-index' >> ~/.cshrc ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/freebsd-csh/.4s-core/.4s-core-index ; cd ~ ; fetch https://raw.githubusercontent.com/4-S/4S-core/master/freebsd-csh/.4s-core-custom-updater-config ; source ~/.cshrc
 ```
 Paste that into a Terminal.
 
 ## Ubuntu - .bashrc edition
 
-### Dependencies
+### Instructions
 
-*
+Get dependencies.
+
+`apt install signify`
+
+![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-install-ubuntu.gif)
 
 ### Install
 
 ```
-cd ~ ; mkdir .4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S/master/bash/.4s-index -O .4s-index ; echo 'source ~/.4s-index' >> ~/.bashrc ; cd ~/.4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core/.4s-core-index -O .4s-core-index ; cd ~ ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/bash/.4s-core-custom-updater-config -O .4s-core-custom-updater-config ; source ~/.bashrc
+cd ~ ; mkdir .4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S/master/ubuntu-bash/.4s-index -O ~/.4s-core/.4s-index ; echo 'source ~/.4s-core/.4s-index' >> ~/.bashrc ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/ubuntu-bash/.4s-core/.4s-core-index -O ~/.4s-core/.4s-core-index ; cd ~ ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/ubuntu-bash/.4s-core-custom-updater-config -O ~/.4s-core-custom-updater-config ; source ~/.bashrc
 ```
 Paste that into a Terminal.
 
-![](https://raw.githubusercontent.com/4-S/4S/master/_img/4-install.gif)
 
+## macOS - .bash_profile edition
 
-# What Does 4S Do?
+### Instructions
 
-1. 4S makes managing and updating alias files _simple_ and _easy_.
-1. 4S makes installing and configuring services with secure defaults easy, with _simple_ shortcuts.
-1. 4S reduces complex multi-step tasks into _single word shortcuts_.
-1. 4S takes a _fraction of the time_ it takes to do by hand.
-1. 4S is a _sane and human readable_ alias.
+Get dependencies.
 
-4S installs additional Core aliases inside its own folder.
+`brew` and `minisign`
+
+![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-install-mac.gif)
+
+### Install
 
 ```
-user@host:~$ ls -a
-.
-..
-.4s-core/
-.4s-core-custom-updater-config
-.4s-index
-.bashrc
+cd ~ ; mkdir .4s-core ; curl -L https://raw.githubusercontent.com/4-S/4S/master/macos-bash/.4s-index -o ~/.4s-core/.4s-index ; echo 'source ~/.4s-core/.4s-index' >> ~/.bash_profile ; curl -L https://raw.githubusercontent.com/4-S/4S-core/master/macos-bash/.4s-core/.4s-core-index -o ~/.4s-core/.4s-core-index ; curl -L https://raw.githubusercontent.com/4-S/4S-core/master/macos-bash/.4s-core-custom-updater-config -o ~/.4s-core-custom-updater-config ; source ~/.bash_profile
 ```
+Paste that into a Terminal.
+
+# Load Your Custom Aliases
 
 Trivially create and add your own alias files. An alias can be as simple as a shortcut to a series commands.
 Example:
@@ -62,8 +73,41 @@ Example:
 alias mytest='date ; uname -a ; sudo apt update'
 ```
 
+### [Learn More](https://github.com/4-S/4S-custom)
+
+
+# Top Supporters
+
+Monthly supporters only.
+
+Amount     | Supporter Name            | Supporter Domain       
+-----------|---------------------------|------------------------
+$50/month  | [Tugger Hosting][thgh]    | [tuggerhosting.com][th]
+$50/month  | [Yella Dog Networks][ydn] | [yelladognetworks.com][ydn]
+
+[reelsense]: https://github.com/reelsense
+[byw]: http://frothymix.info
+[thgh]: https://github.com/TuggerHosting
+[th]: https://tuggerhosting.com/
+[ydn]: https://yelladognetworks.com
+
+
+## Support 4S Development
+
+### **[Support Now](https://reelsense.tv/donate)**
+
+**Support 4S development** and maintenance and get simple tutorials & aliases designed for your Cloud VPS!: _Vultr_, _DreamHost_, _Digital Ocean_, _Amazon EC2_, or _Google Cloud Platform_.
+
+Help simplify the Cloud VPS customer experience.
+> Create a Mumble server in 50 seconds on Vultr for $2.50/month!
+
+
 ## Community Discussion
+
 Text and voice chat on the public mumble server.
+
 **Join the Public Mumble**
+
 Server: `pub.bringyourwallet.com`
+
 Port: `64738`
