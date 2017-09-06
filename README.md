@@ -2,6 +2,8 @@
 
 ### The simplest package manager for aliases.
 
+[![Join the chat at https://gitter.im/4_S/Lobby](https://badges.gitter.im/4_S/Lobby.svg)](https://gitter.im/4_S/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 # What Does 4S Do?
 
 1. 4S makes managing and updating alias files _simple_ and _easy_.
