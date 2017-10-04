@@ -12,7 +12,7 @@
 source ~/.4s-core/.4s-core-index
 ##
 ## 4S Update command - Re-downloads and overwrites everything except 4s-core-custom-updater stuff.
-alias 4s-update='cd ~ ; wget -q http://4s-stable.ipfu.org/ubuntu-bash/.4s-index -O ~/.4s-core/.4s-index ; wget -q http://4s-stable-core.ipfu.org/ubuntu-bash/.4s-core/.4s-core-index -O ~/.4s-core/.4s-core-index ; source ~/.bash_profile'
+alias 4s-update='cd ~ ; wget -q http://4s-stable.ipfu.org/ubuntu-bash/.4s-index -O ~/.4s-core/.4s-index ; wget -q http://4s-stable-core.ipfu.org/ubuntu-bash/.4s-core/.4s-core-index -O ~/.4s-core/.4s-core-index ; source ~/.bashrc'
 ##
 ################################################################################
 
@@ -27,6 +27,6 @@ source ~/.4s-core-custom-updater-config
 
 ############################### TESTING AND DEV ################################
 ## 4S DEV Update command - Re-downloads and overwrites everything except 4s-core-custom-updater stuff.
-#alias 4s-4dev-update='wget -q http://4s-dev.ipfu.org/ubuntu-bash/.4s-index -O ~/.4s-core/.4s-index ; wget -q http://4s-dev-core.ipfu.org/ubuntu-bash/.4s-core/.4s-core-index -O ~/.4s-core/.4s-core-index ; source ~/.bash_profile'
+#alias 4s-4dev-update='wget -q http://4s-dev.ipfu.org/ubuntu-bash/.4s-index -O ~/.4s-core/.4s-index ; wget -q http://4s-dev-core.ipfu.org/ubuntu-bash/.4s-core/.4s-core-index -O ~/.4s-core/.4s-core-index ; source ~/.bashrc'
 ##
 ################################################################################
