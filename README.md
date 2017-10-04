@@ -31,7 +31,7 @@ cd ~ ; mkdir .4s-core ; cd ~/.4s-core ; fetch https://raw.githubusercontent.com/
 ```
 Paste that into a Terminal.
 
-## Ubuntu - .bashrc edition
+## Ubuntu - .bash_profile edition
 
 ### Instructions
 
@@ -44,7 +44,7 @@ Get dependencies.
 ### Install
 
 ```
-cd ~ ; mkdir .4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S/master/ubuntu-bash/.4s-index -O ~/.4s-core/.4s-index ; echo 'source ~/.4s-core/.4s-index' >> ~/.bashrc ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/ubuntu-bash/.4s-core/.4s-core-index -O ~/.4s-core/.4s-core-index ; cd ~ ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/ubuntu-bash/.4s-core-custom-updater-config -O ~/.4s-core-custom-updater-config ; source ~/.bashrc
+cd ~ ; mkdir .4s-core ; wget -q https://raw.githubusercontent.com/4-S/4S/master/ubuntu-bash/.4s-index -O ~/.4s-core/.4s-index ; echo 'source ~/.4s-core/.4s-index' >> ~/.bash_profile ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/ubuntu-bash/.4s-core/.4s-core-index -O ~/.4s-core/.4s-core-index ; cd ~ ; wget -q https://raw.githubusercontent.com/4-S/4S-core/master/ubuntu-bash/.4s-core-custom-updater-config -O ~/.4s-core-custom-updater-config ; source ~/.bash_profile
 ```
 Paste that into a Terminal.
 
