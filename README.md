@@ -35,9 +35,13 @@ Paste that into a Terminal.
 
 ### Instructions
 
+_Linux instructions are a temporarily a little messy._
+
 Get dependencies `brew`+`minisign`. `linuxbrew-wrapper` has problems, install with this method:
 
-`sudo apt install ruby git curl build-essential python-setuptools wget ; ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)" ; echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >> ~/.bashrc ; echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >> ~/.bashrc ; echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >> ~/.bashrc ; echo 'export XDG_DATA_DIRS="/home/linuxbrew/.linuxbrew/share:$XDG_DATA_DIRS"' >> ~/.bashrc ; PATH="/home/linuxbrew/.linuxbrew/bin:$PATH" ; brew update --force ; brew install bash-completion ; echo "  [ -f /home/linuxbrew/.linuxbrew/bash_completion ] && . /home/linuxbrew/.linuxbrew/etc/bash_completion" >> ~/.bashrc ; source ~/.bashrc ; brew install minisign`
+```
+sudo apt install ruby git curl build-essential python-setuptools wget ; ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)" ; echo 'export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"' >> ~/.bashrc ; echo 'export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"' >> ~/.bashrc ; echo 'export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"' >> ~/.bashrc ; echo 'export XDG_DATA_DIRS="/home/linuxbrew/.linuxbrew/share:$XDG_DATA_DIRS"' >> ~/.bashrc ; PATH="/home/linuxbrew/.linuxbrew/bin:$PATH" ; brew update --force ; brew install bash-completion ; echo "  [ -f /home/linuxbrew/.linuxbrew/bash_completion ] && . /home/linuxbrew/.linuxbrew/etc/bash_completion" >> ~/.bashrc ; source ~/.bashrc ; brew install minisign
+```
 
 ![](https://raw.githubusercontent.com/4-S/4S/master/_img/4s-install-ubuntu.gif)
 
